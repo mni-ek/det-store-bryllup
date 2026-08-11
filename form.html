@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="da">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formular | Eventnavn</title>
+  <link rel="stylesheet" href="./starter.css">
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+  <header class="site-header">
+    <div class="header-content">
+      <a class="site-logo" href="./">Det store bryllup</a>
+      <nav class="site-nav">
+        <button>Menu</button>
+        <ul class="menu" id="menu" popover>
+          <li><a href="./">Forside</a></li>
+          <li><a href="./svg.html">Menuen</a></li>
+          <li><a href="./form.html" aria-current="page">Bordkort</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="form-page">
+      <header class="form-intro">
+        <h1>Bordkort</h1>
+        <p>Lav dit eget bordkort</p>
+      </header>
+
+      <form class="bordkort-form" action="./opsamling.html">
+        <div class="form-group">
+          <label for="name">Hvad er dit navn?</label>
+          <input type="text" id="name" name="name">
+        </div>
+        <fieldset class="form-group">
+          <legend>Hvilket tilhørs forhold</legend>
+          <label for="forhold-bruden">
+            <input type="radio" id="forhold-bruden" name="forhold" value="brudens">
+            Bruden
+          </label>
+          <label for="forhold-gommen">
+            <input type="radio" id="forhold-gommen" name="forhold" value="gommens">
+            Gommen
+          </label>
+        </fieldset>
+        <fieldset class="form-group">
+          <legend>Hvad glæder du dig til?</legend>
+          <label for="joys-maden">
+            <input type="checkbox" id="joys-maden" name="joys" value="Maden">
+            Maden
+          </label>
+          <label for="joys-brudedansen">
+            <input type="checkbox" id="joys-brudedansen" name="joys" value="Brudedansen">
+            Brudedansen
+          </label>
+          <label for="joys-festen">
+            <input type="checkbox" id="joys-festen" name="joys" value="Festen">
+            Festen
+          </label>
+        </fieldset>
+        <div class="form-group">
+          <label for="kendetegn">Hvad kender tegner dig bedst</label>
+          <select name="kendetegn" id="kendetegn">
+            <option value="blomst">Blomst</option>
+            <option value="sommerfugl">Sommerfugl</option>
+            <option value="hund">Hund</option>
+          </select>
+        </div>
+        <button type="submit">Generer mit bordkort</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-content">
+      <p>Eventnavn</p>
+      <p>Footer</p>
+    </div>
+  </footer>
+  <script src="./script.js"></script>
+</body>
+
+</html>

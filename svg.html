@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="da">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interaktiv SVG | Eventnavn</title>
+  <link rel="stylesheet" href="./starter.css">
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+  <header class="site-header">
+    <div class="header-content">
+      <a class="site-logo" href="./">Det store bryllup</a>
+      <nav class="site-nav">
+        <button>Menu</button>
+        <ul class="menu" id="menu" popover>
+          <li><a href="./">Forside</a></li>
+          <li><a href="./svg.html" aria-current="page">Menuen</a></li>
+          <li><a href="./form.html">Bordkort</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="svg-page">
+      <header class="svg-intro">
+        <h1>Maden til festen</h1>
+        <p>IVi skal have noget lækkeret mad</p>
+      </header>
+
+      <section class="svg-layout">
+        <div class="svg-placeholder">
+          <svg class="svg-menu" viewBox="0 0 1000 420">
+            <use class="lys" href="test2.svg#lys"></use>
+            <use href="test2.svg#figurer"></use>
+          </svg>
+        </div>
+
+        <article class="panel">
+          <h2>Menuen</h2>
+          <p>
+            Her kan du læse om hvad vi skal have at spise.
+          </p>
+          <div class="accordion">
+            <details class="accordion-item" name="accordion" data-position="first" id="details-first">
+              <summary>Forret</summary>
+              <div>
+                En lækker, saftig ovnbagt laksefilet med en flot gylden-orange overflade, serveret oven på en farverig
+                bund af friske
+                grøntsager. Rundt om laksen ligger fx grønne asparges, broccoli, squash, gulerødder og små
+                cherrytomater.
+              </div>
+            </details>
+            <details class="accordion-item" name="accordion" data-position="second" id="details-second">
+              <summary>Hovedret</summary>
+              <div>
+                En saftig, grillet bøf med en mørk, gyldenbrun stegeskorpe og tydelige grillstriber. Bøffen ser mør og
+                blank ud, som om
+                den lige er penslet med lidt smør, og toppes med en lille klat kryddersmør og friske krydderurter.
+
+                Ved siden af ligger små gyldne ovnstegte kartofler med sprøde kanter, lidt salt, peber og rosmarin.
+              </div>
+            </details>
+            <details class="accordion-item" name="accordion" data-position="third" id="details-third">
+              <summary>Dessert</summary>
+              <div>
+                En elegant dessert i flotte lag med frisk hindbærmousse, syrlig rabarberkompot og intens mørk chokolade.
+
+                Nederst ligger et lag mørk chokolade med en blank, cremet konsistens. Ovenpå kommer et lag
+                rabarberkompot i en smuk
+                rødrosa farve med små synlige stykker af rabarber. Herefter et luftigt lag hindbærmousse i en lys rosa
+                nuance.
+              </div>
+            </details>
+          </div>
+        </article>
+      </section>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-content">
+      <p>Eventnavn</p>
+      <p>Footer</p>
+    </div>
+  </footer>
+  <script src="./script.js"></script>
+</body>
+
+</html>
