@@ -1,0 +1,14 @@
+selector
+const - let (var)
+
+eventlisterner
+
+function
+
+add, remove , toggle class
+
+boolean
+if - else if - else
+
+kilk på tekst ændre værdi
+textContent

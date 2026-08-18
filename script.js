@@ -41,7 +41,7 @@ if (opsamlingBordkort) {
   nameOutput.textContent = name;
   forholdOutput.textContent = forhold;
 
-  joyOne.textContent = joys[0] || "";
+  joyOne.textContent = joys[0] || "Ikke noget specielt";
   joyTwo.textContent = joys[1] || "";
   joyThree.textContent = joys[2] || "";
 
