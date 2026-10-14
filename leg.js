@@ -15,6 +15,8 @@ function myFunction() {
 
 let myVar;
 
+// test
+
 myVar = 5;
 if (myVar === 7) {
   // Hvis det er sandt, gør noget
