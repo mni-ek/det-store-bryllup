@@ -12,3 +12,7 @@ if - else if - else
 
 kilk på tekst ændre værdi
 textContent
+
+
+
+Efter fejlfinding øvelser
